@@ -1,0 +1,14 @@
+
+Design Assumptions:
+
+1. Frequency of sensor data incoming is not very high so a single entry to post request is made right now.
+2. Server/Node as enough memory to compute statistics in memory
+
+
+Improvements/Suggestions
+
+1. Take the statistics computation to database level-> Use timeseries database and proper partitioning of data in case the amount and frequency of data is huge.
+2. Use api level Caching to respond faster over duplicate queries.
+3. Create Jobs to create aggregate over timeframe and make statistics API respons via that
+4. Migrate/Explore to distributed computation query engine like spark etc to make parallel query processing faster
+5. Aggregate/Club data points at source device to create multiple entries in DB while making single post request
