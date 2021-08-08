@@ -1,5 +1,3 @@
-# Canary Platform Homework
-
 ## Introduction
 Imagine a system where hundreds of thousands of Canary like hardware devices are concurrently uploading temperature and humidty sensor data.
 
@@ -92,5 +90,4 @@ Your task is to fork this repo and complete the following:
 - [ ] README
   - [ ] Explain any design decisions you made and why.
   - [ ] Imagine you're building the roadmap for this project over the next quarter. What features or updates would you suggest that we prioritize?
-
-When you're finished, send your git repo link to platform@canary.is. If you have any questions, please do not hesitate to reach out!
+  
